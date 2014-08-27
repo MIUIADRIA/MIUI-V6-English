@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center" android:id="@id/hint_plug_headset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/cit_headset_plug_hint" style="?android:attr/textAppearanceMedium" />
-    <TextView android:gravity="center" android:id="@id/play_pause" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/cit_headset_button_play_pause" style="?android:attr/textAppearanceMedium" />
-    <TextView android:gravity="center" android:id="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/cit_headset_button_next" style="?android:attr/textAppearanceMedium" />
-    <TextView android:gravity="center" android:id="@id/previous" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cit_headset_button_previous" style="?android:attr/textAppearanceMedium" />
-</LinearLayout>
