@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="sleep_duration_values">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 Hour</item>
+    <string-array name="sleep_duration_values_seconds">
+        <item>900</item>
+        <item>1800</item>
+        <item>2700</item>
+        <item>3600</item>
     </string-array>
     <string-array name="search_category_rbds_entries">
         <item>All Stations</item>
@@ -112,23 +112,21 @@
         <item>United Kingdom</item>
         <item>United States</item>
     </string-array>
+    <string-array name="rf_cfg">
+        <item>Get Current Station Parameters</item>
+        <item>Get Station Parameters Repeat 20 times</item>
+        <item>Get Search station parameters</item>
+        <item>Get FM Band sweep parameters</item>
+        <item>Configure FM Search Parameters</item>
+    </string-array>
+    <string-array name="cfg_rf">
+        <item>Set FM RSSI Delta</item>
+        <item>Set Signal Threshold</item>
+        <item>RF Statistics</item>
+    </string-array>
     <string-array name="stats_options">
         <item>Select the option</item>
         <item>Configure FM Search parameters</item>
         <item>RF Statistics</item>
-    </string-array>
-    <string-array name="freq_entries">
-        <item>" "</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>.</item>
     </string-array>
 </resources>

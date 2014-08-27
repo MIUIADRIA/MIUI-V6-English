@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/fm_start1" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/cit_fm_open_1" />
+    <Button android:id="@id/fm_start2" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/cit_fm_open_2" />
+    <Button android:id="@id/fm_stop" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/cit_fm_close" />
+</LinearLayout>

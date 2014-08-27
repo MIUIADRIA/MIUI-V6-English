@@ -444,7 +444,7 @@ Attempt made: %s."</string>
     <string name="add_slide_before">Add intro slide</string>
     <string name="context_menu_add_to_browser_favorite">Add to Browser bookmarks</string>
     <string name="restore_all_button_msg">Restore all messages sent from this number</string>
-    <string name="no_block_button_msg">Unblock this number</string>
+    <string name="no_block_button_msg">Unblock</string>
     <string name="restore_blocked_message">Restore message</string>
     <string name="overwrite_edited_content">"The content you've edited will be overwritten."</string>
     <string name="back_to_message_list">Back to message list</string>

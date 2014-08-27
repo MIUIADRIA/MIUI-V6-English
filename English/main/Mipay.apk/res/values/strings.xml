@@ -87,7 +87,6 @@
     <string name="mipay_check_personal_info_phone">Phone</string>
     <string name="mipay_check_personal_info_phone_hint">"Bank account's corresponding phone number"</string>
     <string name="mipay_check_personal_info_error">Please check your personal information</string>
-    <string name="mipay_process_expired">Your operation has expired, please restart</string>
     <string name="mipay_cancel_pay">Give up purchasing?</string>
     <string name="mipay_cancel_bind_bank_card">Give up binding bank card?</string>
     <string name="mipay_cancel_unbind_bank_card">Give up unbinding bank card?</string>
@@ -111,4 +110,5 @@ Please check your local date and try again."</string>
     <string name="mipay_common_license">User Agreement</string>
     <string name="mipay_date_picker_label_year" />
     <string name="mipay_date_picker_label_month" />
+    <string name="mipay_process_expired">Your operation has expired, please restart</string>
 </resources>

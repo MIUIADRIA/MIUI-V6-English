@@ -20,8 +20,13 @@
     <string-array name="cs_call_type">
         <item>CSVoice</item>
     </string-array>
-    <string-array name="cdma_system_select_choices">
-        <item>Home only</item>
-        <item>Automatic</item>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="absent_num">
+        <item>ABSENT NUMBER</item>
+        <item>ABSENTNUMBER</item>
     </string-array>
 </resources>

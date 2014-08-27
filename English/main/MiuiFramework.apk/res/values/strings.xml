@@ -82,6 +82,7 @@
 
 To enable this function, go to Settings > System > Buttons"</string>
     <string name="force_exit_message">Force quit %1$s</string>
+    <string name="force_exit_skip_message">%1$s is system key component, can not be force quited.</string>
     <string name="screen_button_notification_title">Navigation buttons disabled</string>
     <string name="screen_button_notification_text">To re-enable them, press the Home and Power buttons simultaneously.</string>
     <string name="perm_send_push_dspt">Allow Xiaomi push messages</string>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.vpndialogs">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19"/>
+    <application android:allowBackup="false" android:label="VpnDialogs" android:name="miui.external.Application">
+        <activity android:name=".ConfirmDialog" android:theme="@miui:style/Theme.Light.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ManageDialog" android:noHistory="true" android:theme="@miui:style/Theme.Light.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

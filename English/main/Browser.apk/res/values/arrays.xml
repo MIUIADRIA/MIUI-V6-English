@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--This Slovak translation is licenced under www.creativecommons.org/licenses/by-nc-nd/3.0/deed.en by MIUI CZ&SK www.miui.cz-->
 <resources>
+    <string-array name="menu_theme_setting">
+        <item>White</item>
+        <item>Yellow</item>
+        <item>Grey</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Default start page</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="pref_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+    <string-array name="pref_volume_key_choices">
+        <item>Previous page/Next page</item>
+        <item>Previous tab/Next tab</item>
+    </string-array>
+    <string-array name="pref_fling_on_border_choices">
+        <item>Page forward/backward</item>
+        <item>Switch window</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="pref_images_preload_choices">
+        <item>Never</item>
+        <item>Only on WLAN</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="pref_text_zoom_choices">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="pref_data_preload_choices">
+        <item>Never</item>
+        <item>Only on WLAN</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_choices">
+        <item>Never</item>
+        <item>Only on WLAN</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="pref_video_preload_choices">
+        <item>Never</item>
+        <item>Only on WLAN</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="pre_webapp_text_sizes">
+        <item>Larger</item>
+        <item>Large</item>
+        <item>Normal</item>
+        <item>Small</item>
+    </string-array>
+    <string-array name="yahoo">
+        <item>Yahoo!</item>
+        <item>yahoo.com</item>
+        <item>http://search.yahoo.com/favicon.ico</item>
+        <item>https://search.yahoo.com/search;_ylt=A0oG7l7PeB5P3G0AKASl87UF?p={searchTerms}&amp;ei={inputEncoding}</item>
+        <item>UTF-8</item>
+        <item>http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}</item>
+    </string-array>
+    <string-array name="bing">
+        <item>Bing</item>
+        <item>bing.com</item>
+        <item>http://www.bing.com/s/wlflag.ico</item>
+        <item>http://www.bing.com/search?q={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+    </string-array>
+    <string-array name="baidu">
+        <item>百度</item>
+        <item>baidu.com</item>
+        <item>http://m.baidu.com/favicon.ico</item>
+        <item>http://m.baidu.com/s?from=1269a&amp;word={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
+    <string-array name="sogou">
+        <item>搜狗</item>
+        <item>sogou.com</item>
+        <item>http://wap.sogou.com/favicon.ico</item>
+        <item>http://wap.sogou.com/web/searchlist.jsp?keyword={searchTerms}&amp;pid=xiaomi9&amp;e=1187</item>
+        <item>UTF-8</item>
+        <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
     <string-array name="google">
         <item>Google</item>
         <item>google.com</item>
@@ -9,77 +104,122 @@
         <item>UTF-8</item>
         <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
     </string-array>
-    <string-array name="baidu">
-        <item>Google</item>
-        <item>google.com</item>
-        <item>http://www.google.com/favicon.ico</item>
-        <item>http://www.google.com/search?hl={language}&amp;ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}</item>
+    <string-array name="s139">
+        <item>百度</item>
+        <item>139.com</item>
+        <item>http://s.139.com/favicon.ico</item>
+        <item>http://s.139.com/search.do?q={searchTerms}&amp;category=downloadable|web|browserable&amp;tid=2123,2124,2125,2126&amp;fr=portalcustom2</item>
         <item>UTF-8</item>
-        <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+        <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
+    <string-array name="yicha">
+        <item>易查</item>
+        <item>yicha.cn</item>
+        <item>http://yicha.cn/favicon.ico</item>
+        <item>http://yicha.cn/union/u.jsp?p=page&amp;site=2145958584&amp;key={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
+    <string-array name="easou">
+        <item>宜搜</item>
+        <item>easou.com:8080</item>
+        <item>http://ad3.easou.com:8080/favicon.ico</item>
+        <item>http://ad3.easou.com:8080/j10ad/ea2.jsp?channel=11&amp;cid=bwcn3511_49059_D_1&amp;wver=t&amp;q={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
+    <string-array name="taobao">
+        <item>淘宝</item>
+        <item>taobao.com</item>
+        <item>http://r.m.taobao.com/favicon.ico</item>
+        <item>http://r.m.taobao.com/s?p=mm_32549094_4130482_13394846&amp;q={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
+    <string-array name="dianping">
+        <item>团购</item>
+        <item>dianping.com</item>
+        <item>http://developer.dianping.com/favicon.ico</item>
+        <item>http://m.dianping.com/shoplist/2/kw/{searchTerms}/search</item>
+        <item>UTF-8</item>
+        <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
+    <string-array name="tupian">
+        <item>图片</item>
+        <item>baidu.com</item>
+        <item>http://image.baidu.com/favicon.ico</item>
+        <item>http://m.baidu.com/s?from=1000228f&amp;vit=union&amp;st=103041&amp;word={searchTerms}&amp;tn=bdwis</item>
+        <item>UTF-8</item>
+        <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
+    <string-array name="shipin">
+        <item>视频</item>
+        <item>youku.com</item>
+        <item>http://m.baidu.com/favicon.ico</item>
+        <item>http://m.baidu.com/video?from=1000228j&amp;word={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://suggestion.baidu.com/su?p=3&amp;wd={searchTerms}</item>
+    </string-array>
+    <string-array name="search_engines_default">
+        <item>google</item>
+        <item>yahoo</item>
+        <item>bing</item>
+    </string-array>
+    <string-array name="search_bar_search_engines_default">
+        <item>google</item>
+        <item>yahoo</item>
+        <item>bing</item>
     </string-array>
     <string-array name="pref_content_plugins_choices">
-        <item>Vždy zapnuté</item>
-        <item>Opýtať sa</item>
-	<item>Vždy vypnuté</item>
+        <item>Always on</item>
+        <item>Ask me first</item>
+        <item>Off</item>
     </string-array>
-    <string-array name="pref_homepage_choices">
-        <item>Úvodná stránka</item>
-        <item>Iná</item>
-    </string-array>		
     <string-array name="pref_text_size_choices">
-	<item>Veľmi malý</item>
-        <item>Malý</item>
-        <item>Normálny</item>
-        <item>Veľký</item>
-        <item>Najväčší</item>
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Huge</item>
     </string-array>
-    <string-array name="pref_default_zoom_choices">
-        <item>Ďaleko</item>
-        <item>Stredne</item>
-        <item>Blízko</item>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <item>Korean (EUC-KR)</item>
     </string-array>
-    <string-array name="pref_data_preload_choices">
-        <item>Nikdy</item>
-        <item>Len na Wi-Fi</item>
-        <item>Vždy</item>
-    </string-array>
-    <string-array name="pref_volume_key_choices">
-        <item>Stránka hore/dole</item>
-        <item>Prepnutie karty</item>
-    </string-array>
-    <string-array name="pref_fling_on_border_choices">
-        <item>Stránka vpred/vzad</item>
-        <item>Prepnutie karty</item>
-    </string-array>    
-    <string-array name="pref_link_prefetch_choices">
-        <item>Nikdy</item>
-        <item>Iba na Wi-Fi</item>
-        <item>Vždy</item>
-    </string-array>
-    <string-array name="pref_video_preload_choices">
-        <item>Nikdy</item>
-        <item>Len na Wi-Fi</item>
-        <item>Vždy</item>
-    </string-array>
-    <string-array name="pref_images_preload_choices">
-        <item>Nikdy</item>
-        <item>Len na Wi-Fi</item>
-        <item>Vždy</item>
-    </string-array>
-    <string-array name="menu_theme_setting">
-        <item>Biela</item>
-        <item>Žltá</item>
-        <item>Šedá</item>
-        <item>Hnedá</item>
-        <item>Zelená</item>
-        <item>Modrá</item>
-        <item>Tmavá</item>
-    </string-array>
-    <string-array name="pref_text_zoom_choices">
-        <item>Malý</item>
-        <item>Menší</item>
-        <item>Normálny</item>
-        <item>Väčší</item>
-        <item>Veľký</item>
+    <string-array name="bookmarks">
+        <item>Google</item>
+        <item>http://www.google.com/</item>
+        <item>Picasa</item>
+        <item>http://picasaweb.google.com/</item>
+        <item>Yahoo!</item>
+        <item>http://www.yahoo.com/</item>
+        <item>MSN</item>
+        <item>http://www.msn.com/</item>
+        <item>Twitter</item>
+        <item>http://twitter.com/</item>
+        <item>Facebook</item>
+        <item>http://www.facebook.com/</item>
+        <item>Wikipedia</item>
+        <item>http://www.wikipedia.org/</item>
+        <item>eBay</item>
+        <item>http://www.ebay.com/</item>
+        <item>CNN</item>
+        <item>http://www.cnn.com/</item>
+        <item>NY Times</item>
+        <item>http://www.nytimes.com/</item>
+        <item>ESPN</item>
+        <item>http://espn.com/</item>
+        <item>Amazon</item>
+        <item>http://www.amazon.com/</item>
+        <item>Weather Channel</item>
+        <item>http://www.weather.com/</item>
+        <item>BBC</item>
+        <item>http://www.bbc.co.uk/</item>
     </string-array>
 </resources>

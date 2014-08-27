@@ -86,6 +86,7 @@ To activate your account,
     <string name="login_failed">"Can't sign in"</string>
     <string name="verification_failed">Authentication failed</string>
     <string name="error_network">"Can't connect to network"</string>
+    <string name="error_ssl_hand_shake">Error with server connection. Try set your system date-time to current time.</string>
     <string name="error_device_id">"Can't get IMEI"</string>
     <string name="error_dup_phone">This phone number is already associated with another account</string>
     <string name="error_phone_error">Invalid phone number</string>

@@ -2818,6 +2818,7 @@ Select your operating system:"</string>
     <string name="priority_storage_summary">Choose the default location to save userdata</string>
     <string name="priority_storage_settings_summary">"If no SD card is detected, userdata will be saved to your device's internal storage automatically"</string>
     <string name="priority_storage_app_settings">Userdata will be saved to %1$s</string>
+    <string name="enable_mobile_data_when_opening_hotspot">Enable mobile data connection too?</string>
     <string name="miracast_settings_category">WLAN display settings</string>
     <string name="miracast_display_category">Displays</string>
     <string name="miracast_menu_search">Search</string>

@@ -1,0 +1,127 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: yeanjuc+juydZX6GywWcPuPgMOE=
+
+Name: res/layout/cit_wifi_tool_rx_ap_item.xml
+SHA1-Digest: EcKHQk4C5bzFjRbR42fH3Kt+eZw=
+
+Name: res/drawable-hdpi/pointer_location_grid.png
+SHA1-Digest: GV2WJPaUBt2VDO+zn7sH0eXk2A4=
+
+Name: res/layout-land/cit_accelermeter_view.xml
+SHA1-Digest: Pjw6uDk8BRkYHyjMNJDdcisnK3s=
+
+Name: res/layout/cit_wifi_tool_tx_st_item.xml
+SHA1-Digest: WUfd9FswulaPld9sybAHWrR19Tk=
+
+Name: res/layout/cit_vibrator_check.xml
+SHA1-Digest: wteDYz8B6jfFl0okFSd4AqqZhus=
+
+Name: res/layout/cit_tool_list_item.xml
+SHA1-Digest: yFblJft2JbCvI0L8DHmlSAd0tpA=
+
+Name: res/layout/cit_leds_check.xml
+SHA1-Digest: lwpVZ3UNiPpn9Gn275Rdy/pf/Kg=
+
+Name: resources.arsc
+SHA1-Digest: gIn9OCcYPEyu5tGHgZ0lA0ul5k0=
+
+Name: res/layout/cit_headset_button_check.xml
+SHA1-Digest: 6MVLhIbrQ6qVMBa+YlpudAyr0Fo=
+
+Name: res/layout/cit_reset_check.xml
+SHA1-Digest: T0AI6xmBJErnFcTCGOIhLD5q9iU=
+
+Name: res/drawable-hdpi/list_item_background.9.png
+SHA1-Digest: YMIG+HlKVFIqpP3GHQ7IqqE/mXc=
+
+Name: res/layout/cit_list_item.xml
+SHA1-Digest: ixESMOrFjMwws8MJ7IQNqw3MYqs=
+
+Name: AndroidManifest.xml
+SHA1-Digest: VfsxyZMlArTD3yIzRgqQ9Gr6g04=
+
+Name: res/layout/cit_nfc_tool_singletone_item.xml
+SHA1-Digest: HwrLeG6bdhKPL3DOAKeO9uUZpk0=
+
+Name: res/layout/cit_fm_check.xml
+SHA1-Digest: q0blqw0PtnHSIkVJF7T8bUf8Lgg=
+
+Name: res/layout/cit_wifi_tool_tx_n_item.xml
+SHA1-Digest: chKqaxlh/pB6XX3GormvIqzSqR0=
+
+Name: res/layout/cit_wifi_tool_rx_cnt_item_rxbg.xml
+SHA1-Digest: W3Iu+sgOE7aIfLRubgSZOcPyAEQ=
+
+Name: res/layout/cit_camera_check.xml
+SHA1-Digest: prgP5U3pyxlxvKFoc196SQzu7M8=
+
+Name: res/layout/cit_wifi_ap_scan_check.xml
+SHA1-Digest: Qyc4gOWnN38VcDdMizOpvGcW3T4=
+
+Name: res/layout/cit_audio_loopback_check.xml
+SHA1-Digest: LXAALWN3q5zWXBinMgaOidhTw8w=
+
+Name: res/layout/cit_wifi_tool_rx_cnt_item.xml
+SHA1-Digest: pWt43p2bPdkMt6NFdxajAQedruI=
+
+Name: res/layout/cit_wifi_address_check.xml
+SHA1-Digest: XzlPUS1r2nNlzlL1N5DfcIPNQ1g=
+
+Name: res/layout/cit_default_panel.xml
+SHA1-Digest: Zvaubu6FCspQKKNpBh05v4FZ+1M=
+
+Name: res/layout/cit_accelermeter_view.xml
+SHA1-Digest: FJ+NoJNnJp7L01mjfx++53/TW9o=
+
+Name: res/layout/cit_sd_check.xml
+SHA1-Digest: 4wCsisJUjdXCJzMZHFEJ739ZMXI=
+
+Name: res/layout/cit_wifi_tool_rx_exit.xml
+SHA1-Digest: QyVHtysNkeX1NfGIp2Rw4lrAO6o=
+
+Name: res/drawable-hdpi/cit.png
+SHA1-Digest: io90u7ie1qZ6kaLWrmLhFiGdEX0=
+
+Name: res/layout/cit_wifi_tool_rx_cnt_item_rxn.xml
+SHA1-Digest: DzwJxHnj/WyuiBlBaAthW/D/Qtw=
+
+Name: classes.dex
+SHA1-Digest: MFHQkHSvSBDyNOkLzil7yWU/Waw=
+
+Name: res/layout/cit_bluetooth_scan_check.xml
+SHA1-Digest: lEQXT410tXdnJfNyxsr0hYdMajw=
+
+Name: res/layout/cit_item_menu.xml
+SHA1-Digest: rXOM4HAJuMWNlnTbNASJY4q4CiI=
+
+Name: res/layout/cit_item_menu_touch.xml
+SHA1-Digest: QWh/b9OI5bv7nu7PwLUHtKBROTs=
+
+Name: res/layout/cit_wifi_tool_24_5_band.xml
+SHA1-Digest: J4XU2dA+zv3BsZnJTBzsaFW8zeA=
+
+Name: res/layout/cit_tool_menu.xml
+SHA1-Digest: tsQTjPP3D/P0lWXcL39ft9wgEWQ=
+
+Name: res/layout/cit_default_layout.xml
+SHA1-Digest: K39Dw9VLE/epQmuzYlvOQK4sq1M=
+
+Name: res/layout/cit_compass_view.xml
+SHA1-Digest: 2Mio2C03CR7O3dZFZIbLHXqB7jo=
+
+Name: res/layout/cit_version_check.xml
+SHA1-Digest: FWywG6KTXccOimPMotWw9/TLTno=
+
+Name: res/layout/cit_touch_calib.xml
+SHA1-Digest: S5olxtMddJamdIaOhIn4S4EiAsc=
+
+Name: res/layout/cit_wifi_tool_list_item.xml
+SHA1-Digest: GgHyszkUpJ63k8SAMqlVEi+wZk0=
+
+Name: res/layout/cit_keyboard_check.xml
+SHA1-Digest: 2APXP6xbayPba3y4i3q6g8u+V9c=
+
+Name: res/layout/cit_wifi_tool_tx_bg_item.xml
+SHA1-Digest: Bmnn7JP5kkmLr+w5q02R5W5lqQc=
+

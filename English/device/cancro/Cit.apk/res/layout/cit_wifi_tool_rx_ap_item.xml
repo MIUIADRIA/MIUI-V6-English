@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left|center" android:id="@id/cit_tool_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cit_tool_wifi_rx_ap" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="200.0dip" android:layout_height="100.0dip">
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ap_name" android:layout_width="180.0dip" android:layout_height="50.0dip" android:hint="@string/cit_tool_wifi_rx_ap_name" />
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/dut_ip" android:layout_width="180.0dip" android:layout_height="50.0dip" android:hint="@string/cit_tool_wifi_rx_dut_ip" />
+    </LinearLayout>
+    <Button android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:layout_gravity="right|center" android:id="@id/cit_run" android:layout_width="90.0dip" android:layout_height="60.0dip" android:text="@string/cit_tool_wifi_rx_run" />
+</LinearLayout>

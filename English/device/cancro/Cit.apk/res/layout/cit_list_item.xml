@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left|center" android:id="@id/cit_test_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+    <TextView android:gravity="right|center" android:id="@id/cit_test_result" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="?android:attr/textAppearanceMedium" />
+</LinearLayout>

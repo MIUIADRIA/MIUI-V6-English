@@ -1,0 +1,17 @@
+version: 2.0.5a-BZ
+apkFileName: VpnDialogs.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 8
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '19'
+packageInfo:
+  forced-package-id: '8'
+  rename-manifest-package: com.android.vpndialogs
+versionInfo:
+  versionCode: '19'
+  versionName: 4.4.4-4.8.22
+compressionType: false

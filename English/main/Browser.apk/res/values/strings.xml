@@ -446,6 +446,12 @@ Navigate away from this page?"</string>
     <string name="save_to_camera_success">Saved to camera</string>
     <string name="save_to_camera_failed">"Can't save picture"</string>
     <string name="sdcard_error">Check your SD card</string>
+    <string name="download_phone_tip">Phone</string>
+    <string name="download_router_tip">Mi router (Download to Mi router)</string>
+    <string name="router_download_success">Downloading，please check the progress in Mi router App</string>
+    <string name="router_download_failed">Download failed, please retry</string>
+    <string name="router_download_exist">This download file already exists</string>
+    <string name="select_download_device">Select Device</string>
     <string name="pref_video_preload_title">Preload videos</string>
     <string name="pref_video_preload_dialogtitle">Video preloading</string>
     <string name="bookmark_needs_url">Bookmark must have a location.</string>

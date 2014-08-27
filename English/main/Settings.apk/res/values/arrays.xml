@@ -63,22 +63,6 @@
         <item>High</item>
         <item>Very high</item>
     </string-array>
-    <string-array name="tts_demo_strings">
-        <item>This is an example of speech synthesis in English.</item>
-        <item>Voici un échantillon de synthèse vocale en français.</item>
-        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
-        <item>Questo è un esempio di sintesi vocale in italiano.</item>
-        <item>Este es un ejemplo de síntesis de voz en español.</item>
-        <item>이것은 한국어 음성 합성의 예입니다.</item>
-    </string-array>
-    <string-array name="tts_demo_string_langs">
-        <item>eng</item>
-        <item>fra</item>
-        <item>deu</item>
-        <item>ita</item>
-        <item>spa</item>
-        <item>kor</item>
-    </string-array>
     <string-array name="wifi_status">
         <item></item>
         <item>Scanning…</item>
@@ -151,24 +135,6 @@
         <item>Launch count</item>
         <item>App name</item>
     </string-array>
-    <string-array name="wifi_eap_entries">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
-    </string-array>
-    <string-array name="wifi_peap_phase2_entries">
-        <item>None</item>
-        <item>MSCHAPV2</item>
-        <item>GTC</item>
-    </string-array>
-    <string-array name="wifi_phase2_entries">
-        <item>None</item>
-        <item>PAP</item>
-        <item>MSCHAP</item>
-        <item>MSCHAPV2</item>
-        <item>GTC</item>
-    </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
         <item>Static</item>
@@ -181,36 +147,6 @@
         <item>Off</item>
         <item>Alert</item>
         <item>Vibrate</item>
-    </string-array>
-    <string-array name="special_locale_codes">
-        <item>zh_CN</item>
-        <item>zh_TW</item>
-    </string-array>
-    <string-array name="special_locale_names">
-        <item>中文 (简体)</item>
-        <item>中文 (繁體)</item>
-    </string-array>
-    <string-array name="apn_auth_entries">
-        <item>None</item>
-        <item>PAP</item>
-        <item>CHAP</item>
-        <item>PAP or CHAP</item>
-    </string-array>
-    <string-array name="apn_protocol_entries">
-        <item>IPv4</item>
-        <item>IPv6</item>
-        <item>IPv4/IPv6</item>
-    </string-array>
-    <string-array name="bearer_entries">
-        <item>LTE</item>
-        <item>eHRPD</item>
-        <item>Unspecified</item>
-    </string-array>
-    <string-array name="mvno_type_entries">
-        <item>None</item>
-        <item>SPN</item>
-        <item>IMSI</item>
-        <item>GID</item>
     </string-array>
     <string-array name="app_install_location_entries">
         <item>Internal device storage</item>
@@ -274,13 +210,6 @@
         <item>Medium</item>
         <item>Long</item>
     </string-array>
-    <string-array name="captioning_typeface_selector_titles">
-        <item>Default</item>
-        <item>Sans-serif</item>
-        <item>Sans-serif condensed</item>
-        <item>Serif</item>
-        <item>Monospace</item>
-    </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Very small</item>
         <item>Small</item>
@@ -299,11 +228,6 @@
         <item>Yellow on black</item>
         <item>Yellow on blue</item>
         <item>Custom</item>
-    </string-array>
-    <string-array name="select_runtime_titles">
-        <item>Dalvik</item>
-        <item>ART</item>
-        <item>ART (debug)</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Never check</item>
@@ -347,6 +271,15 @@
         <item>1920x1080 xhdpi (secure)</item>
         <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
     </string-array>
+        <item></item>
+        <item>720x480/160</item>
+        <item>720x480/160,secure</item>
+        <item>1280x720/213</item>
+        <item>1280x720/213,secure</item>
+        <item>1920x1080/320</item>
+        <item>1920x1080/320,secure</item>
+        <item>1280x720/213;1920x1080/320</item>
+    </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>None</item>
         <item>Logcat</item>
@@ -378,22 +311,6 @@
         <item>At most 3 processes</item>
         <item>At most 4 processes</item>
     </string-array>
-    <string-array name="vpn_types">
-        <item>PPTP</item>
-        <item>L2TP/IPSec PSK</item>
-        <item>L2TP/IPSec RSA</item>
-        <item>IPSec Xauth PSK</item>
-        <item>IPSec Xauth RSA</item>
-        <item>IPSec Hybrid RSA</item>
-    </string-array>
-    <string-array name="vpn_types_long">
-        <item>PPTP VPN</item>
-        <item>L2TP/IPSec VPN with pre-shared keys</item>
-        <item>L2TP/IPSec VPN with certificates</item>
-        <item>IPSec VPN with pre-shared keys and Xauth authentication</item>
-        <item>IPSec VPN with certificates and Xauth authentication</item>
-        <item>IPSec VPN with certificates and hybrid authentication</item>
-    </string-array>
     <string-array name="vpn_states">
         <item>Disconnected</item>
         <item>Initializing…</item>
@@ -413,12 +330,6 @@
         <item>Ask</item>
         <item>Never allow</item>
         <item>Always allow</item>
-    </string-array>
-    <string-array name="ram_states">
-        <item>normal</item>
-        <item>moderate</item>
-        <item>low</item>
-        <item>critical</item>
     </string-array>
     <string-array name="haptic_feedback_level_entries">
         <item>Strong</item>
@@ -467,9 +378,6 @@
         <item>White</item>
         <item>Violet</item>
     </string-array>
-    <string-array name="wifi_security_only_wapi_cert_entries">
-        <item>WAPI CERT</item>
-    </string-array>
     <string-array name="screen_key_long_press_action">
         <item>None</item>
         <item>Show recent apps tray</item>
@@ -491,12 +399,6 @@
         <item>10 seconds</item>
         <item>20 seconds</item>
         <item>Always</item>
-    </string-array>
-    <string-array name="font_size_title">
-        <item>@string/font_size_small</item>
-        <item>@string/font_size_normal</item>
-        <item>@string/font_size_medium</item>
-        <item>@string/font_size_large</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Starting session…</item>
@@ -543,10 +445,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Allow</item>
         <item>Deny</item>
     </string-array>
-    <string-array name="entries_color_calibration">
-        <item>sRGB</item>
-        <item>Native</item>
-    </string-array>
     <string-array name="phone_call_noise_suppression_title">
         <item>Single-mic noise suppression</item>
         <item>Dual-mic noise suppression</item>
@@ -578,6 +476,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Gallery</item>
         <item>Music</item>
         <item>Email</item>
+    </string-array>
+    <string-array name="network_speed_slow_summary">
+        <item>Network is slow due to too much traffic</item>
+        <item>Network is slow due to weak signal strength</item>
+        <item>Moving…</item>
     </string-array>
     <string-array name="priority_storage_entries">
         <item>Internal storage</item>

@@ -9,14 +9,24 @@
         <item>Hide number</item>
         <item>Show number</item>
     </string-array>
-    <string-array name="clir_values">
-        <item>DEFAULT</item>
-        <item>HIDE</item>
-        <item>SHOW</item>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Chinese</item>
+        <item>Hebrew</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
         <item>Home only</item>
         <item>Automatic</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
     </string-array>
     <string-array name="dtmf_tone_entries">
         <item>Normal</item>
@@ -25,10 +35,5 @@
     <string-array name="absent_num">
         <item>ABSENT NUMBER</item>
         <item>ABSENTNUMBER</item>
-    </string-array>
-    <string-array name="voicemail_notification_vibrate_when_values">
-        <item>always</item>
-        <item>silent</item>
-        <item>never</item>
     </string-array>
 </resources>

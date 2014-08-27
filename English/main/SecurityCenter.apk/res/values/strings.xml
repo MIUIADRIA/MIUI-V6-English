@@ -381,6 +381,7 @@ Your device is set to switch to this configuration when battery recovers. You ne
     <string name="item_install_monitor">Install monitor</string>
     <string name="item_app_permission">App permissions</string>
     <string name="item_mms">Filter unwanted messages</string>
+    <string name="item_dev_mode">Developer options</string>
     <string name="menu_item_about_title">About</string>
     <string name="menu_item_about_content">Version: %s</string>
     <string name="menu_item_about_summary">Version: %s</string>
@@ -619,4 +620,9 @@ Your device is set to switch to this configuration when battery recovers. You ne
     <string name="antivirus_sec_support">Powered by Tencent</string>
     <string name="hints_garbage_handle_item_empty_content">0 item</string>
     <string name="hints_title_garbage">Trash</string>
+    <string name="toast_virus_in_cloud_scanning">Can not stop virus scan in cloud scanning</string>
+    <string name="activity_title_cache_data">Cache</string>
+    <string name="title_dev_yes">Developer options off</string>
+    <string name="title_dev_no">Developer options on</string>
+    <string name="summary_dev">Avoid applications stealing user data</string>
 </resources>

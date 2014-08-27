@@ -635,6 +635,7 @@ touch the Shutter button"</string>
     <string name="pref_video_speed_slow_title">Slow</string>
     <string name="pref_camera_countdown_title">CountDown</string>
     <string name="simple_mode_button_text_countdown">Close count down</string>
+    <string name="effect_setting_top_text">Camera Filters</string>
     <string name="pref_camera_settings">Device Setting</string>
     <string name="pref_capture_settings">Camera Setting</string>
     <string name="pref_camcorder_settings">Camcorder Setting</string>

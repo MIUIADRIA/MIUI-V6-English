@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.miui.cit">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19"/>
+    <original-package android:name="com.miui.cit"/>
+    <uses-permission android:name="android.permission.ACCESS_FM_RECEIVER"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.flash"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <application android:icon="@drawable/cit" android:label="@string/cit_label" android:taskAffinity="com.miui.cit">
+        <receiver android:name=".CitBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+                <data android:host="64663" android:scheme="android_secret_code"/>
+                <data android:host="6484" android:scheme="android_secret_code"/>
+                <data android:host="995995" android:scheme="android_secret_code"/>
+                <data android:host="717717" android:scheme="android_secret_code"/>
+                <data android:host="27284" android:scheme="android_secret_code"/>
+                <data android:host="797628" android:scheme="android_secret_code"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/cit_name" android:launchMode="singleTask" android:name=".CitLauncherActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Holo.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.miui.cit.action.FULL"/>
+                <action android:name="com.miui.cit.action.PARTIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".CitVersionCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitVibratorCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitProximitySensorCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitPressureSensorCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitGyroscopeSensorCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitWifiAddressCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitWifiScanCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitBluetoothAddressCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitLightSensorCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitMagneticSensorCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitBluetoothScanCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitAccelermeterSensorCheckActivity" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitHeadsetPlugDetectActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitHeadsetPullDetectActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitHeadsetButtonCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitSimCardCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitResetCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitAudioLBMainMicToEarpieceActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitAudioLBPhonecallActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitAudioLBBackMicToSpeakerActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitAudioLBTopMicToSpeakerActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitHeadsetLoopbackCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitSdCardPluginDetectActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitSdCardPlugoutDetectActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitKeyboardTestActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitChargerPluginCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitChargerPlugoutCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitOTGPluginCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitOTGPlugoutCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitPointerLocationCheckActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <activity android:name=".CitPlaySdCardMp3Activity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitPlaySdCardMp3HIFIActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitDisplayCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitMainCameraCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitFrontCameraCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitVgaCameraCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitGpsCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitLedsCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitFMCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitPowerCheckActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:name=".CitTouchCalibActivity" android:screenOrientation="portrait" android:theme="@style/TestCaseTheme"/>
+        <activity android:label="@string/cit_tool" android:name=".CitToolListActivity" android:theme="@android:style/Theme.Holo.Light"/>
+        <activity android:label="@string/cit_tool" android:name=".CitToolListActivity" android:theme="@android:style/Theme.Holo.Light"/>
+        <activity android:label="@string/cit_tool_log" android:name=".CitLogToolActivity" android:theme="@android:style/Theme.Holo.Light"/>
+        <activity android:label="@string/cit_tool_nfc" android:name=".CitNfcToolActivity" android:theme="@android:style/Theme.Holo.Light"/>
+        <activity android:label="@string/cit_tool_bluetooth" android:name=".CitBluetoothToolActivity" android:theme="@android:style/Theme.Holo.Light"/>
+        <activity android:label="@string/cit_tool_wifi" android:name=".CitWifiToolActivity" android:theme="@android:style/Theme.Holo.Light"/>
+        <activity android:label="@string/cit_tool_modem" android:name=".CitModemToolActivity" android:theme="@android:style/Theme.Holo.Light"/>
+        <receiver android:name=".MediaButtonBroadcastReceiver">
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
